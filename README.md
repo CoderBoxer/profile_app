@@ -1,17 +1,16 @@
-# prof_app
+# My Profile App
 
-A new Flutter project.
+A beautiful, responsive Flutter practice application showcasing personal profile information. This project features a clean UI with dark mode support and a dynamic responsive layout for both mobile and tablet devices.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+<div align="center">
+  <img src="screenshots/screenshot_lightmode.png" alt="Light Mode" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/screenshot_lightmode.png" alt="Dark Mode" width="300"/>
+</div>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- **Responsive Layout**: Adapts layout smoothly across mobile and tablet screens.
+- **Theme Support**: Seamlessly switch between Light and Dark mode.
+- **Modern UI**: Built utilizing the latest Material 3 design guidelines.

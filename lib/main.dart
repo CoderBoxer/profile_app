@@ -127,16 +127,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
             // Name & Title
             Text(
               'Shadman Ahmmed',
-              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
+              style: Theme.of(
+                context,
+              ).textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 4),
             Text(
               'Flutter Developer',
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                    color: Colors.grey[600],
-                  ),
+              style: Theme.of(
+                context,
+              ).textTheme.bodyLarge?.copyWith(color: Colors.grey[600]),
             ),
             const SizedBox(height: 8),
 
@@ -147,9 +147,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 'Flutter developer with passion for building beautiful, high-performance mobile applications.',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: Colors.grey[700],
-                      height: 1.5,
-                    ),
+                  color: Colors.grey[700],
+                  height: 1.5,
+                ),
               ),
             ),
             const SizedBox(height: 24),
@@ -207,9 +207,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }) {
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       margin: const EdgeInsets.symmetric(horizontal: 8),
       child: Padding(
         padding: EdgeInsets.all(isTablet ? 24.0 : 16.0),
@@ -235,16 +233,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   Text(
                     title,
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.bold,
-                        ),
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     subtitle,
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Colors.grey[600],
-                          height: 1.4,
-                        ),
+                      color: Colors.grey[600],
+                      height: 1.4,
+                    ),
                   ),
                 ],
               ),
@@ -258,9 +256,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget _buildSocialIcon(IconData icon, String label) {
     return GestureDetector(
       onTap: () {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('$label tapped!')),
-        );
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('$label tapped!')));
       },
       child: Container(
         padding: const EdgeInsets.all(12),
