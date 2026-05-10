@@ -7,7 +7,7 @@ A beautiful, responsive Flutter practice application showcasing personal profile
 <div align="center">
   <img src="screenshots/screenshot_lightmode.png" alt="Light Mode" width="300"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/screenshot_lightmode.png" alt="Dark Mode" width="300"/>
+  <img src="screenshots/screenshot_darkmode.png" alt="Dark Mode" width="300"/>
 </div>
 
 ## Features
