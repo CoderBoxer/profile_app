@@ -67,7 +67,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        elevation: 0,
+        elevation: 5,
+        backgroundColor: Colors.blue,
         actions: [
           IconButton(
             icon: Icon(
@@ -105,7 +106,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
                 child: ClipOval(
                   child: Image.asset(
-                    'assets/images/profile.png',
+                    'assets/images/profile.jpg',
                     fit: BoxFit.cover,
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
@@ -143,7 +144,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-                'Passionate Flutter developer with experience of building beautiful, high-performance mobile applications.',
+                'Flutter developer with passion for building beautiful, high-performance mobile applications.',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: Colors.grey[700],
